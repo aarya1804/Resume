@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Aarya Patil</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        /* Internal CSS */
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .resume-header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+        .resume-header img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .resume-section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        .nav-links {
+            margin-top: 20px;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .form-section input, .form-section select {
+            margin-bottom: 10px;
+        }
+        .table-section {
+            margin-top: 20px;
+        }
+        .table-section table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table-section th, .table-section td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .table-section th {
+            background-color: #007bff;
+            color: white;
+        }
+        .dropdown-menu a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="resume-header text-center">
+        <h1>Aarya Patil</h1>
+        <p>Age: 20</p>
+        <img src="profile.jpg" alt="Aarya Patil">
+    </div>
+
+    <div class="nav-links text-center">
+        <a href="#education">Education</a>
+        <a href="#languages">Languages</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="education" class="resume-section">
+        <h2 class="section-title">Education</h2>
+        <p><strong>B.Tech in Computer Science Engineering</strong></p>
+        <p>MIT World Peace University</p>
+    </div>
+
+    <div id="languages" class="resume-section">
+        <h2 class="section-title">Languages Known</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>PHP</li>
+        </ul>
+    </div>
+
+    <div id="projects" class="resume-section">
+        <h2 class="section-title">Projects</h2>
+        <ul>
+            <li>Object Detection Radar</li>
+            <li>Space Utility Software</li>
+        </ul>
+    </div>
+
+    <div id="hobbies" class="resume-section">
+        <h2 class="section-title">Hobbies</h2>
+        <ul>
+            <li>Dance</li>
+            <li>Travel</li>
+            <li>Cooking</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="resume-section">
+        <h2 class="section-title">Contact</h2>
+        <form class="form-section">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <select id="subject" class="form-control">
+                    <option value="query">Query</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="table-section">
+        <h2 class="section-title">Education Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>MIT World Peace University</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>D Y Patil Junior College</td>
+                    <td>2020</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Inline CSS -->
+<div style="margin-top: 20px; padding: 10px; background-color: #f1f1f1; text-align: center;">
+    <h2 style="color: #007bff;">External Links</h2>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    <a href="https://www.github.com" target="_blank">GitHub</a>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- External CSS file (styles.css) -->
+/*
+styles.css
+*/
+body {
+    background-image: url('background.jpeg');
+    background-size: cover;
+}
+</body>
+</html>
